@@ -102,9 +102,9 @@
             }
             if (correct) {
               // document.getElementById("answer").innerText = "WIN!";
-              let clearScore = 100 - (hintCount * 10);  
-              clearScore = Math.max(clearScore, 10);
-              score += clearScore; // 게임 클리어한 경우에만 스코어를 업데이트
+              // let clearScore = 100 - (hintCount * 10);  
+              // clearScore = Math.max(clearScore, 10);
+              // score += clearScore; // 게임 클리어한 경우에만 스코어를 업데이트
               updateScore();
     
               setTimeout(() => {
